@@ -1,7 +1,7 @@
 #========================
 #CONFIG
 #========================
-set :application, "api.bazilevsky.pw"
+set :application, "api.pomeo.me"
 #========================
 #CONFIG
 #========================
