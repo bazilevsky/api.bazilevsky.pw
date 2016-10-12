@@ -1,7 +1,7 @@
 #========================
 #CONFIG
 #========================
-set :application, "api.pomeo.me"
+set :application, "api.bazilevsky.pw"
 #========================
 #CONFIG
 #========================
@@ -14,7 +14,7 @@ set :supervisord_stop_group,  "app"
 #ROLES
 #========================
 set  :gateway,    "#{application}" # main server
-role :app,        "10.3.90.1"      # container
+role :app,        "10.3.90.2"      # container
 
 after "deploy:create_symlink",
       "deploy:npm_install",
